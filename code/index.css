@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#headerdiv {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin: 0 5%;
+    border: 0px solid orangered;
+
+}
+
+.cartitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 10px; */
+    gap: 2%;
+    border: 0px solid red;
+    width: 10%;
+
+}
+.cartitem>img{
+    height: 20px;
+}
+
+.kwbg {
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid blue; */
+
+}
+
+.textoverbg {
+    margin-top: -18%;
+    font-size: 25px;
+    margin-left: 4%;
+    border: 0px solid green;
+}
+.textoverbg h1, h3{
+    color: #fff;
+}
+#newandnow {
+    margin-top: 1%;
+    font-size: large;
+}
+.books{
+    margin: 10% 5%;
+    border: 0px solid purple;
+}
+.dis-books{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    border: 0px solid red;
+}
+.dis-books>div>img{
+    height: 250px;
+    border: 0px solid blue;
+}
+.dis-books>div>p:nth-child(2){
+    font-weight: 900;
+    
+}
+.dis-books>div>p:nth-child(3){
+    font-weight: 400;
+    color: gray;
+    
+}
+.dis-books>div>div{
+    /* border: 2px solid purple; */
+    display: flex;
+    gap: 15%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.dis-books>div>div>div{
+    /* border: 2px solid red; */
+    display: flex;
+    /* gap: 5%; */
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(44, 131, 219);
+    padding: 3%;
+    color: #fff;
+    border-radius: 5px;
+    height: 15px;
+    margin-top: 4%;
+}
+.dis-books>div>div>div>img{
+    /* border: 2px solid yellow; */
+    height: 20px;
+    width: 40%;
+
+}
+.game-cart{
+    /* border: 2px solid red; */
+    display: flex;
+    /* gap: 5%; */
+    width: 2%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(44, 131, 219);
+    padding: 3%;
+    color: #fff;
+    border-radius: 5px;
+    height: 15px;
+    margin-top: 4%;
+}
+.cart-parent{
+    /* border: 2px solid purple; */
+    display: flex;
+    /* gap: 15%; */
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.dis-games>div>div>div{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 15%;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(44, 131, 219);
+    padding: 3%;
+    color: #fff;
+    border-radius: 5px;
+    height: 15px;
+    margin-top: 4%;
+}
+.dis-games>div>div>div>img{
+    /* border: 2px solid yellow; */
+    height: 20px;
+    width: 40%;
+
+}
+.dis-games>div>div{
+    /* border: 2px solid purple; */
+    display: flex;
+    gap: 15%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* .books{
+    margin: 10% 5%;
+    border: 2px solid purple;
+} */
+.dis-games{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+}
+.dis-games>div>img{
+    height: 250px;
+    /* border: 2px solid blue; */
+}
+.dis-games>div>p:nth-child(2){
+    font-weight: 900;
+    
+}
+.dis-games>div>p:nth-child(3){
+    font-weight: 400;
+    color: gray;
+    
+}
+
+/* kristi */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 8%;
+    background-color: #000;
+    color: #fff;
+    margin-top: 8%;
+}
+.footer>div>img{
+    margin-top: 2%;
+    height: 150px;
+    width: 150px;
+
+    border-radius: 50%;
+}
+.footer>div:nth-child(2){
+    /* border: 2px solid yellow; */
+    text-align: right;
+    padding-top: 5%;
+
+}
+/* .footer>div:nth-child(2)> */
+
+.footer>div:nth-child(2)>p:nth-child(2){
+    margin-top: 10%;
+}
+
+.footer>div:nth-child(2)>p:nth-child(2)>span{
+    color: red;
+}
+
+.d-games{
+    margin-top: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
